@@ -1,0 +1,26 @@
+.searchInput {
+  font-size: 1.4rem;
+  background-color: #3c3c3c;
+  margin: 1rem 0.5rem 1rem;
+  width: 40%;
+  border: none;
+  text-align: center;
+}
+.searchSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e1e1e;
+}
+.searchIcon {
+  background-color: #1e1e1e;
+  box-shadow: 0 0 0 1px black;
+  border-radius: 3px;
+  aspect-ratio: 1;
+  transition: 0.25s;
+}
+.searchIcon:hover {
+  transform: scale(1.01);
+  cursor: pointer;
+  box-shadow: 0 0 0 1px black;
+}

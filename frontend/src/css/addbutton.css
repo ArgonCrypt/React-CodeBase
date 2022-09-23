@@ -1,0 +1,23 @@
+.addbutton {
+  position: fixed;
+  left: 95%;
+  top: 90%;
+  border-radius: 50%;
+  font-size: 2rem;
+  background-color: #393939;
+  color: #ccc;
+  padding: 0.2rem 0.6rem 0.2rem 0.6rem;
+  aspect-ratio: 1;
+  transition: 0.25s;
+  line-height: 0;
+  text-align: center;
+  width: 3rem;
+  height: 3rem;
+  aspect-ratio: 1;
+}
+.addbutton:hover {
+  background-color: #575656;
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0 0 0 2px #00a2e8;
+}

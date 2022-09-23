@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  background-color: #1e1e1e;
+  color: #ccc;
+  font-size: 1rem;
+}
+.svg {
+  transition: 0.25s;
+  border-radius: 0.5rem;
+}
+svg:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+}

@@ -1,0 +1,30 @@
+.copypopup {
+  background-color: #00a2e8;
+  color: #ccc;
+  width: fit-content;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  position: fixed;
+  top: 91%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  user-select: none;
+  visibility: hidden;
+  z-index: 1;
+}
+.copypopup::before {
+  content: "\200b";
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #00a2e8;
+  position: absolute;
+  left: 50%;
+  top: 114%;
+  transform: translate(-50%, -50%);
+}
+.visible {
+  visibility: visible;
+}
